@@ -6,12 +6,12 @@ public class task_5 {
         Scanner scanner = new Scanner(System.in);
 
         //Объявляем переменную X
-        System.out.print("Введите значение X: ");
+        System.out.print("Введите значение в двоичной системе счисления: ");
         String X = scanner.next();
 
         BigInteger b= new BigInteger(X,2);
 
-        System.out.println("Перевод в десятичную систему исчисления: " + b);
+        System.out.println("Перевод в десятичную систему счисления: " + b);
 
         scanner.close();
     }
