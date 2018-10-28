@@ -5,7 +5,6 @@ public class task_5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //Объявляем переменную X
         System.out.print("Введите значение в двоичной системе счисления: ");
         String X = scanner.next();
 
